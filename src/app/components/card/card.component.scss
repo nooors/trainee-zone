@@ -1,25 +1,12 @@
 .thumbnail{
-  width: 500px;
-  border: 1px solid black
+  width: 300px;
+  border: 1px solid black;
+  margin-bottom: 1rem;
 }
 
-
-.component-wrapper{
-  margin-top: 1rem;
-  height: 70vh;
-  display: flex;
-  justify-content: center;
-  align-items: center
-}
-
-#img{
-  width: 400px;
-  height: 200px;
-  background-image: url('../../../assets/router-heroes.png');
-  border: 1px solid black
-}
 
 img{
-  width: 100;
+  width: 100%;
+
   overflow: hidden;
 }

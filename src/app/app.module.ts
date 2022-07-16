@@ -8,9 +8,10 @@ import { MaterialModule } from '../material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { CardComponent } from './components/card/card.component';
+import { RendererComponent } from './components/renderer/renderer.component';
 
 @NgModule({
-  declarations: [AppComponent, CardComponent],
+  declarations: [AppComponent, CardComponent, RendererComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

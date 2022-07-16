@@ -5,6 +5,6 @@
 <hr>
 <hr>
 <hr>
-<div class="component-wrapper">
-  <app-card></app-card>
+<div class="component-wrapper" fxLayout="row wrap" fxLayoutAlign="center" fxLayoutGap="16px">
+  <app-card *ngFor="let project of projects" [image]="project.thumbnail "></app-card>
 </div>
