@@ -4,6 +4,7 @@ export interface Project {
     frontend?: string | undefined;
     backend?: string | undefined;
   };
+  description: string;
   tech: string[];
   thumbnail: string;
 }

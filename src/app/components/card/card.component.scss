@@ -1,12 +1,34 @@
-.thumbnail{
-  width: 300px;
-  border: 1px solid black;
-  margin-bottom: 1rem;
+// .thumbnail {
+//   width        : 300px;
+//   border       : 1px solid black;
+//   margin-bottom: 1rem;
+//   display: flex;
+//   flex-flow: column wrap;
+
+// }
+
+
+// img {
+//   width: 100%;
+//   overflow: hidden;
+//   display: flex;
+//   justify-content: center;
+// }
+
+.mat-card-image:first-child {
+  margin-top: 0;
 }
 
+// .mat-card-header {
+//   background-color: #1A237E;
+//   color           : #FFE082;
+//   margin-bottom: 1rem;
+// }
 
-img{
-  width: 100%;
+// .mat-chip-list-wrapper{
+//   margin: 0
+// }
+// .mat-chip.mat-standard-chip.mat-chip-selected.mat-primary {
+//   color:#FFE082;
 
-  overflow: hidden;
-}
+// }

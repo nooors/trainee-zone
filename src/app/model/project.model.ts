@@ -2,7 +2,8 @@ export const project = [
   {
     url: 'https://nooors.github.io/pipesApp/',
     code: { frontend: 'https://github.com/nooors/pipesApp.git' },
-    description: '',
+    description:
+      ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ex ducimus obcaecati fugiat corporis fugit a soluta quasi nulla repellat autem, impedit illo odit dolorum beatae neque? Voluptatem, similique ipsam!',
     tech: [
       'Angular 14',
       'router 14',
@@ -20,7 +21,8 @@ export const project = [
       frontend: 'https://github.com/nooors/HeroesApp.git',
       backend: 'https://github.com/nooors/heroesDB.git',
     },
-    description: '',
+    description:
+      ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ex ducimus obcaecati fugiat corporis fugit a soluta quasi nulla repellat autem, impedit illo odit dolorum beatae neque? Voluptatem, similique ipsam!',
     tech: [
       'Angular 13',
       'flex-layout 13',
@@ -38,7 +40,8 @@ export const project = [
   {
     url: 'https://nooors.github.io/countriesApp/',
     code: { frontend: 'https://github.com/nooors/countriesApp.git' },
-    description: '',
+    description:
+      ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ex ducimus obcaecati fugiat corporis fugit a soluta quasi nulla repellat autem, impedit illo odit dolorum beatae neque? Voluptatem, similique ipsam!',
     tech: [
       'Angular 13',
       'Forms',
@@ -54,7 +57,8 @@ export const project = [
   {
     url: 'https://nooors.github.io/weather-angular-app/',
     code: { frontend: 'https://github.com/nooors/weather-angular-app.git' },
-    description: '',
+    description:
+      ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ex ducimus obcaecati fugiat corporis fugit a soluta quasi nulla repellat autem, impedit illo odit dolorum beatae neque? Voluptatem, similique ipsam!',
     tech: [
       'Angular 13',
       'Reactive-Forms',
@@ -70,7 +74,8 @@ export const project = [
   {
     url: 'https://nooors.github.io/router-tour-of-heroes/',
     code: { frontend: 'https://github.com/nooors/router-tour-of-heroes.git' },
-    description: '',
+    description:
+      ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ex ducimus obcaecati fugiat corporis fugit a soluta quasi nulla repellat autem, impedit illo odit dolorum beatae neque? Voluptatem, similique ipsam!',
     tech: ['Angular 13', 'Router 13', 'Protected routes', 'RxJS'],
     thumbnail:
       'https://am3pap004files.storage.live.com/y4m-ODXeed8uSaI7w4GaUn4qJeiqr6VUc0t5WxMTumSG8h-fIkBYyEKkKsZUBqKGjqGOQq9UacWonLwzo_Z-u2nxixLlY5jhp8onE0BKTXfH2-2-F2uHLq7swhmbn9ZoUuW2HCaCCgcR7jotqtDcY4rGemdn2ScgDraiVYGNR9-iUf7dCAvHi-Pq-U-MhSdKwEJ?width=256&height=144&cropmode=none',
@@ -81,7 +86,8 @@ export const project = [
       frontend: 'https://github.com/nooors/auth-app.git',
       backend: 'https://github.com/nooors/auth-serve-node.git',
     },
-    description: '',
+    description:
+      ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ex ducimus obcaecati fugiat corporis fugit a soluta quasi nulla repellat autem, impedit illo odit dolorum beatae neque? Voluptatem, similique ipsam!',
     tech: [
       'Angular 13',
       'Router 13',
@@ -101,7 +107,8 @@ export const project = [
   {
     url: 'https://nooors.github.io/todo-trainee/',
     code: { frontend: 'https://github.com/nooors/todo-trainee.git' },
-    description: '',
+    description:
+      ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ex ducimus obcaecati fugiat corporis fugit a soluta quasi nulla repellat autem, impedit illo odit dolorum beatae neque? Voluptatem, similique ipsam!',
     tech: [
       'Angular 13',
       'Angular Material 13',
