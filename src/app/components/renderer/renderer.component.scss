@@ -1,0 +1,27 @@
+.center {
+    margin: auto
+}
+.container{
+
+    height: 90vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 0 1rem
+    
+}
+
+iframe{
+    height: 80vh;
+    width: 80%;
+    overflow: hidden;
+
+}
+
+.actions {
+    margin-top: 1.5rem;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}

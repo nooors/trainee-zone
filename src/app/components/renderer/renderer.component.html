@@ -1,1 +1,16 @@
-<p>renderer works!</p>
+<app-toolbar></app-toolbar>
+<app-divider></app-divider>
+<div class="center">
+  <main class="container">
+    <iframe [src]=" iFrameUrl | safePipe" frameborder="0"> </iframe>
+    <app-divider></app-divider>
+    <nav class="actions">
+      <button mat-raised-button (click)="navigateTo('back')" color="primary">
+        Go Back
+      </button>
+      <button mat-raised-button (click)="navigateTo('site')" color="accent">
+        To The Site
+      </button>
+    </nav>
+  </main>
+</div>

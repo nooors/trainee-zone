@@ -1,4 +1,6 @@
 export interface Project {
+  title: string;
+  subtitle: string;
   url: string;
   code: {
     frontend?: string | undefined;

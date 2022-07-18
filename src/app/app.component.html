@@ -1,13 +1,1 @@
-<mat-toolbar color="primary" class="mat-elevation-z5">
-  <mat-toolbar-row><span>Title</span></mat-toolbar-row>
-</mat-toolbar>
-<mat-divider></mat-divider>
-<hr>
-<hr>
-<hr>
-<div class="component-wrapper" fxLayout="row wrap" fxLayoutAlign="center" fxLayoutGap="16px">
-  <div fxFlex="20" fxFlex.xl="10" fxFlex.lg="20" fxFlex="30" fxFlex.sm="40" fxFlex.xs="40"
-    *ngFor="let project of projects">
-    <app-card [image]="project.thumbnail" [content]="project.description" [tech]="project.tech"></app-card>
-  </div>
-</div>
+<router-outlet></router-outlet>

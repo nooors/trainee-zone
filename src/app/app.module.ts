@@ -9,9 +9,13 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { CardComponent } from './components/card/card.component';
 import { RendererComponent } from './components/renderer/renderer.component';
+import { ToolbarComponent } from './components/toolbar/toolbar.component';
+import { DividerComponent } from './components/divider/divider.component';
+import { HomeComponent } from './components/home/home.component';
+import { SafePipePipe } from './pipes/safe-pipe.pipe';
 
 @NgModule({
-  declarations: [AppComponent, CardComponent, RendererComponent],
+  declarations: [AppComponent, CardComponent, RendererComponent, ToolbarComponent, DividerComponent, HomeComponent, SafePipePipe],
   imports: [
     BrowserModule,
     AppRoutingModule,

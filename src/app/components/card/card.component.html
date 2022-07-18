@@ -1,48 +1,42 @@
-<mat-card class="thumbnail">
+<mat-card class="thumbnail mat-elevation-z10">
   <mat-card-header color="primary">
-    <mat-card-title color="primary">Title</mat-card-title>
-    <mat-card-subtitle>Subtitle</mat-card-subtitle>
+    <mat-card-title color="primary">{{ title }}</mat-card-title>
+    <mat-card-subtitle>{{ subtitle }}</mat-card-subtitle>
   </mat-card-header>
   <!-- <div id="img"> -->
-  <img matCardImage [src]="image">
+  <img matCardImage [src]="image" />
   <!-- </div> -->
   <mat-card-content>
     {{ content }}
   </mat-card-content>
   <mat-card-actions align="start">
-    <button mat-raised-button>Web</button>
-    <button mat-raised-button>FE Code</button>
-    <button mat-raised-button>FE Code</button>
-
+    <button mat-raised-button color="primary" (click)="goTo(subtitle)">
+      Web
+    </button>
+    <button
+      mat-raised-button
+      color="accent"
+      *ngIf="frontend"
+      value="frontend"
+      (click)="goToCode($event)"
+    >
+      FEnd Code
+    </button>
+    <button
+      mat-raised-button
+      color="warn"
+      *ngIf="backend"
+      value="backend"
+      (click)="goToCode($event)"
+    >
+      BEnd Code
+    </button>
   </mat-card-actions>
   <mat-card-footer>
     <mat-chip-list class="custom list">
-      <mat-chip color="primary" selected *ngFor="let item of tech">{{ item }}</mat-chip>
+      <mat-chip color="primary" selected *ngFor="let item of tech"
+        >{{ item }}</mat-chip
+      >
     </mat-chip-list>
   </mat-card-footer>
 </mat-card>
-
-<!-- <mat-card>
-  <mat-card-header>
-    <mat-card-title>{{ hero.superhero }}</mat-card-title>
-    <mat-card-subtitle>{{ hero.alter_ego}}</mat-card-subtitle>
-  </mat-card-header>
-  <img matCardImage [src]="hero | image" />
-  <mat-card-content>
-    <h3>{{ hero.publisher }}</h3>
-
-    <p>
-      <strong>First appearence: </strong>{{ hero.first_appearance}}
-      <br />
-      <strong>Characters: </strong>{{ hero.characters }}
-    </p>
-  </mat-card-content>
-  <mat-card-actions align="start">
-    <button mat-button color="warn" (click)="goHero(hero.id)">
-      Read more...
-    </button>
-    <button mat-button color="accent" (click)="editHero(hero.id)">
-      Editar
-    </button>
-  </mat-card-actions>
-</mat-card> -->

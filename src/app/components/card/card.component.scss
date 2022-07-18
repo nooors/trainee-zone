@@ -1,11 +1,29 @@
 .thumbnail {
-//   width        : 300px;
-//   border       : 1px solid black;
+  //   width        : 300px;
+  //   border       : 1px solid black;
   margin-bottom: 1rem;
-//   display: flex;
-//   flex-flow: column wrap;
+  //   display: flex;
+  //   flex-flow: column wrap;
 
 }
+
+.mat-card-footer {
+  padding: .5rem;
+}
+
+.mat-chip-list-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+  flex: 1, 2
+
+}
+
+.mat-chip.mat-standard-chip.mat-chip-selected.mat-primary {
+  margin: 0 -10px -2px 0;
+  transform: scale(.7);
+}
+
 
 
 // img {
