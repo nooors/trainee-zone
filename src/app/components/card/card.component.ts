@@ -20,12 +20,8 @@ export class CardComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  goTo(pag: string) {
-    console.log("pag", pag);
-
-    this.router.navigate(["/view", pag]);
-  }
-  goToCode(event: Event) {
-    console.log(event.target);
+  goTo(pag: string, source: string) {
+    console.log("pag", pag, source);
+    this.router.navigate(["/view", pag, source]);
   }
 }

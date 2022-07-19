@@ -17,6 +17,7 @@ export class RendererComponent implements OnInit {
 
   constructor(private router: Router, private params: ActivatedRoute) {
     this.projects = project;
+    console.log("hola");
   }
 
   ngOnInit(): void {
@@ -31,10 +32,12 @@ export class RendererComponent implements OnInit {
           this.tempUrl = projectFinded!.url;
           break;
         case "frontend":
-          this.tempUrl = projectFinded!.code.frontend;
+          window.open(projectFinded?.code.frontend, "_blank");
+          this.router.navigateByUrl("/home");
           break;
         case "backend":
-          this.tempUrl = projectFinded!.code.backend;
+          window.open(projectFinded?.code.backend, "_blank");
+          this.router.navigateByUrl("/home");
           break;
       }
       if (this.tempUrl) {

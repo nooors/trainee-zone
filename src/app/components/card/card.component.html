@@ -10,7 +10,7 @@
     {{ content }}
   </mat-card-content>
   <mat-card-actions align="start">
-    <button mat-raised-button color="primary" (click)="goTo(subtitle)">
+    <button mat-raised-button color="primary" (click)="goTo(subtitle, 'web')">
       Web
     </button>
     <button
@@ -18,7 +18,7 @@
       color="accent"
       *ngIf="frontend"
       value="frontend"
-      (click)="goToCode($event)"
+      (click)="goTo(subtitle, 'frontend')"
     >
       FEnd Code
     </button>
@@ -27,7 +27,7 @@
       color="warn"
       *ngIf="backend"
       value="backend"
-      (click)="goToCode($event)"
+      (click)="goTo(subtitle, 'backend')"
     >
       BEnd Code
     </button>

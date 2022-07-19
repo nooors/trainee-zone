@@ -138,4 +138,22 @@ export const project = [
     thumbnail:
       "https://am3pap004files.storage.live.com/y4mYCHKhD1uST6QOTtTuU9O91AAqpLWrHcSySZnoYpJVk31Iauw4-OvVLbHrMnAFbkUuFklHeCs_06ghlBM8V7XgK_78Zi4ziaE2-3g5q94hRKnbKU0aNskP9Z2ZfRnkyc5Qay0z1rxdi3052zTYG-nRTOFlhTIIAuX4Ly9ICJs3-Ss99OlascCTP6BbB9pnn-7?width=256&height=144&cropmode=none",
   },
+  {
+    title: "Angular Forms Practice ",
+    subtitle: "template-forms-app",
+    url: "https://nooors.github.io/template-forms-app/template/basics",
+    code: { frontend: "https://github.com/nooors/template-forms-app.git" },
+    description:
+      "An application that wants to do a walkthrough of Angular forms. Template-driven forms and Reactive forms as well. This app is unfinished, at the time of writing this description, some features still don't work.",
+    tech: [
+      "Angular 13",
+      "Router 13",
+      "Reactive Forms",
+      "Template-Driven Forms",
+      "RxJS",
+      "Bootstrap 5",
+    ],
+    thumbnail:
+      "https://am3pap004files.storage.live.com/y4myEFlmWZ9Qh_e_fSHrkf82e516o9fLy2Dc4qmhCrV40LO2P3L-OFbu8pD2S0-vqxnBK3C8PYcnxoIJPIzt8yil_ZcpKZ5g-dZrHBtZb6phBhxbxilV7-fFfCyFuOlITRWHqAEagEHmFkV3pjf5Gza0hE5BMKayS-E8CjujL2scpd4xDm4wzj8dI4MPK0EodOj?width=256&height=134&cropmode=none",
+  },
 ];
