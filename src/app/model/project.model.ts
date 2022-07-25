@@ -144,7 +144,7 @@ export const project = [
     url: "https://nooors.github.io/template-forms-app/template/basics",
     code: { frontend: "https://github.com/nooors/template-forms-app.git" },
     description:
-      "An application that wants to do a walkthrough of Angular forms. Template-driven forms and Reactive forms as well. This app is unfinished, at the time of writing this description, some features still don't work.",
+      "An application that wants to do a walkthrough of Angular forms. Template-driven forms and Reactive forms as well. It comprise from simplest forms to dynamic form creation and management",
     tech: [
       "Angular 13",
       "Router 13",
@@ -154,6 +154,6 @@ export const project = [
       "Bootstrap 5",
     ],
     thumbnail:
-      "https://am3pap004files.storage.live.com/y4myEFlmWZ9Qh_e_fSHrkf82e516o9fLy2Dc4qmhCrV40LO2P3L-OFbu8pD2S0-vqxnBK3C8PYcnxoIJPIzt8yil_ZcpKZ5g-dZrHBtZb6phBhxbxilV7-fFfCyFuOlITRWHqAEagEHmFkV3pjf5Gza0hE5BMKayS-E8CjujL2scpd4xDm4wzj8dI4MPK0EodOj?width=256&height=134&cropmode=none",
+      "https://am3pap004files.storage.live.com/y4mCuAhdT_YFeDwlqtRhAnWwyaLJrKPkcbhN4SCnp3lQE6gFUDnXQPAW6Lc2AXtodjWSNSvooerxn8-6dU-uCPxP5bINaNZ6GhTxNuUvaPW6jOgYQU8nczEGRfPEJq-soicQvYgbZh2EVK8DQ8lEOOQfn2VCZWlD4aVZK9n3Y5MI7vdyI5rhr-A_vFl_qoUWQ4E?width=256&height=138&cropmode=none",
   },
 ];
